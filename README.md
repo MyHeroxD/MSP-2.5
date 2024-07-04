@@ -1,40 +1,40 @@
-# Servidor de Minecraft en GitHub Codespaces
+# Minecraft Server on GitHub Codespaces
 
-Este repositorio está diseñado para ejecutar un servidor de Minecraft utilizando GitHub Codespaces. Con esta configuración, puedes tener un servidor de Minecraft en funcionamiento en pocos minutos sin necesidad de configuración local.
+This repository is designed to run a Minecraft server using GitHub Codespaces. With this setup, you can have a Minecraft server up and running in a few minutes without local configuration.
 
-## Características
+## Features
 
-- Configuración automática del servidor de Minecraft en GitHub Codespaces.
-- Scripts para iniciar, detener y administrar el servidor fácilmente.
-- Compatibilidad con plugins y mods.
-- Archivos de configuración personalizables para ajustar el servidor a tus necesidades.
+- Automatic setup of the Minecraft server in GitHub Codespaces.
+- Scripts to easily start, stop and manage the server.
+- Support for plugins and mods.
+- Customizable configuration files to adjust the server to your needs.
 
-## Requisitos
+## Requirements
 
-- Una cuenta de GitHub.
-- Acceso a GitHub Codespaces.
-- Acceso a uno de los siguientes túneles:
-  - Tailscale
-  - Serveo
-  - Playit
-- Una cuenta de Dropbox (si usas respaldos)
+- A GitHub account.
+- Access to GitHub Codespaces.
+- Access to one of the following tunnels:
+  - Tailscale.
+  - Serveo.
+  - Playit.
+- A Dropbox account (if you use backups).
 
-## Personalización
+## Customization
 
-Puedes personalizar el servidor modificando los archivos de configuración en el directorio `config`. Estos incluyen:
+You can customize the server by modifying the configuration files in the `config` directory. These include:
 
-- `server.properties`: Configuración general del servidor.
-- `whitelist.json`: Lista de jugadores permitidos.
-- `ops.json`: Lista de operadores del servidor.
+- `server.properties`: General server configuration.
+- `whitelist.json`: List of allowed players.
+- `ops.json`: List of server operators.
 
-## Contribuciones
+## Contributions
 
-Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna mejora, por favor abre un issue o envía un pull request.
+Contributions are welcome. If you find any problem or have any improvement, please open an issue or send a pull request.
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
-¡Gracias por usar este repositorio para tu servidor de Minecraft! Si tienes alguna pregunta, no dudes en contactar.
+Thank you for using this repository for your Minecraft server! If you have any questions, feel free to contact.
