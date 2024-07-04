@@ -14,41 +14,6 @@ Este repositorio está diseñado para ejecutar un servidor de Minecraft utilizan
 - Una cuenta de GitHub.
 - Acceso a GitHub Codespaces.
 
-## Instrucciones de Uso
-
-### 1. Crear un Codespace
-
-1. Haz clic en el botón `Code` en la página principal del repositorio.
-2. Selecciona `Create codespace on main` para crear un nuevo Codespace basado en la rama principal.
-
-### 2. Configurar y Ejecutar el Servidor
-
-Una vez que el Codespace esté activo, sigue estos pasos:
-
-1. Abre la terminal en el Codespace.
-2. Ejecuta el script de configuración inicial:
-    ```bash
-    ./setup.sh
-    ```
-3. Inicia el servidor de Minecraft:
-    ```bash
-    ./start-server.sh
-    ```
-4. El servidor comenzará a ejecutarse y estará accesible mediante la dirección IP del Codespace.
-
-### 3. Conectar al Servidor
-
-- Abre Minecraft en tu computadora.
-- Entra en el menú de multijugador.
-- Añade un nuevo servidor utilizando la dirección IP proporcionada por el Codespace.
-
-## Scripts Disponibles
-
-- `setup.sh`: Configura el entorno y descarga los archivos necesarios.
-- `start-server.sh`: Inicia el servidor de Minecraft.
-- `stop-server.sh`: Detiene el servidor de Minecraft.
-- `backup.sh`: Realiza una copia de seguridad del estado actual del servidor.
-
 ## Personalización
 
 Puedes personalizar el servidor modificando los archivos de configuración en el directorio `config`. Estos incluyen:
