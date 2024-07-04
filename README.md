@@ -13,6 +13,11 @@ Este repositorio está diseñado para ejecutar un servidor de Minecraft utilizan
 
 - Una cuenta de GitHub.
 - Acceso a GitHub Codespaces.
+- Acceso a uno de los siguientes túneles:
+  - Tailscale
+  - Serveo
+  - Playit
+- Una cuenta de Dropbox (si usas respaldos)
 
 ## Personalización
 
